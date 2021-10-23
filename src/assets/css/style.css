@@ -643,14 +643,14 @@ img {
 
 /* SERVICES */
 .services__container {
-	gap: 1.5rem;
+	gap: 2.5rem;
 	grid-template-columns: repeat(2, 1fr);
 }
 
 .services__content {
 	position: relative;
 	background-color: var(--container-color);
-	padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+	padding: 3.5rem 1.5rem 1.25rem 1.5rem;
 	border-radius: 0.25rem;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 	transition: 0.3s;
@@ -667,6 +667,7 @@ img {
 	height: 80px;
 	color: var(--first-color);
 	margin-bottom: var(--mb-1);
+	
 }
 
 .services__title {
@@ -715,6 +716,7 @@ img {
 .services__modal-service {
 	display: flex;
 }
+
 
 .services__modal-title {
 	font-size: var(--h3-font-size);
@@ -1238,7 +1240,7 @@ img {
 	}
 
 	.services__content {
-		padding: 6rem 0 2rem 2.5rem;
+		padding: 3rem 0.5rem 1rem 2.5rem;
 	}
 
 	.services__modal-content {
