@@ -387,6 +387,19 @@ img {
 .button--flex {
 	display: inline-flex;
 	align-items: center;
+	border: none;
+}
+.button--flex1 {
+	display: inline-flex;
+	align-items: center;
+	background: #F51D1D;
+	border: none;
+}
+.button--flex1:hover {
+	display: inline-flex;
+	align-items: center;
+	background:#DE2E10;
+	border: none;
 }
 
 .button--small {
@@ -397,12 +410,15 @@ img {
 	padding: 0;
 	background-color: transparent;
 	color: var(--first-color);
+	border: none;
 }
 
 .button--link:hover {
 	background-color: transparent;
 	color: var(--first-color-alt);
+	border: none;
 }
+
 
 /* SOBRE */
 .about__img {
